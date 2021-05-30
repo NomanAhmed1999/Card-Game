@@ -1,0 +1,86 @@
+
+
+
+
+
+body{
+    background-color: rgb(57, 240, 57);
+    height: 100vh;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+p{
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.score-box{
+    margin-left: 5%;
+    font-family: monospace;
+    font-size: 40px;
+}
+.score-box input{
+    font-family: monospace;
+    background-color: rgb(69, 243, 69);;
+    font-size: 40px;
+    width: 1.5%;
+    height: s0px;
+    border: hidden;
+    cursor: default;
+}
+
+
+.container{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    
+}
+
+
+.img-size{
+    margin: 3%;
+    width: 10%;
+    height: 200px;
+    cursor: pointer;
+    
+}
+#king{
+    display: none;
+}
+
+
+
+@media only screen and (max-width : 600px) {
+    h1{
+        font-size: 40px;
+        margin-bottom: 2%;
+    }
+
+    p{
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .score-box{
+        font-size: 15px;
+    }
+    .score-box input{
+        font-size: 15px;
+        width: 3.5%;
+    }
+    .img-size{
+        margin: 10% 1% 0% 0% ;
+        width: 20%;
+        height: 100px;
+        
+    }
+
+
+}
